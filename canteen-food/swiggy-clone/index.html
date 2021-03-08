@@ -1,0 +1,835 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Product-slider</title>
+<!--Adding Links  -->
+<link  rel="stylesheet" href="css/swiper.min.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+ <!--Nav bar-->
+ <nav>
+      <div class="menu-icon"><span class="fas fa-bars"></span></div>
+      <div class="logo">CanteenFood</div>
+      <div class="nav-items">
+        <li><a href="#"><i class="fa fa-fw fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+        <li><a href="file:///C:/Users/ADITYA/Downloads/Product-slider/Product-slider/login/index.html"><i class="fa fa-fw fa-user"></i>Login</a></li>
+        <li><a href="#about"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+        <li><a href="file:///C:/Users/ADITYA/Desktop/canteen%20food%20webpage/feedback/index.html"><i class="fas fa-comments"></i>Feedback</a></li>
+      </div>
+      <div class="search-icon"><span class="fas fa-search"></span></div>
+      <div class="cancel-icon"><span class="fas fa-times"></span></div>
+      <form action="#">
+        <input type="search" class="search-data" placeholder="Search" required>
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+    </nav>
+  
+<!--End of Nav bar-->
+
+<script>
+      const menuBtn = document.querySelector(".menu-icon span");
+      const searchBtn = document.querySelector(".search-icon");
+      const cancelBtn = document.querySelector(".cancel-icon");
+      const items = document.querySelector(".nav-items");
+      const form = document.querySelector("form");
+      menuBtn.onclick = ()=>{
+        items.classList.add("active");
+        menuBtn.classList.add("hide");
+        searchBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+      }
+      cancelBtn.onclick = ()=>{
+        items.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        searchBtn.classList.remove("hide");
+        cancelBtn.classList.remove("show");
+        form.classList.remove("active");
+        cancelBtn.style.color = "#ff3d00";
+      }
+      searchBtn.onclick = ()=>{
+        form.classList.add("active");
+        searchBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+      }
+    </script>
+
+
+<!--slider 1 bags------------------------------------------>
+<div class="heading">
+<h1> H - B L O C K &nbsp; M E N U </h1>
+
+</div>
+<!--swiper slider-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <!--slide 1-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/egg_thali.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 2-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/rajma.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 3-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/burger.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 4-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/dosa.webp">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 5-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/fried_rice.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 6-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/burger.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <!--slide 7-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/Veg_Thali.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 8-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/chole.jpeg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 9-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/food2.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 10-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/rajma.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+</div>
+
+</div>
+
+<!--swiper  slider end-->
+
+
+<!--slider 2 clothes------------------------------------------>
+<div class="heading">
+<h1> E - B L O C K &nbsp; M E N U </h1></div>
+<!--swiper slider-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <!--slide 1-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/Veg_Thali.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 2-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/chole.jpeg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 3-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/dosa.webp">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 4-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/Veg_Thali.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 5-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/egg_thali.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 6-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/burger.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <!--slide 7-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/rajma.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 8-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/food2.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      
+      <!--slide 9-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/fried_rice.jpg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+      <!--slide 10-------------------------------------->
+      <div class="swiper-slide">
+      <div class="slider-box">
+<p class="time">New</p>
+<div class="img-box">
+<img src="images/chole.jpeg">
+</div>
+
+<p class="detail">Chole Bhature
+
+<a href="#" class="price">Price-40</a>
+</p>
+<div class="cart">
+<a href="#">Add To Cart</a>
+</div>
+</div>
+      
+      </div>
+      
+      
+      
+</div>
+
+</div>
+
+<!--swiper  slider end-->
+
+<!--slider 3 clothes------------------------------------------>
+<div class="heading">
+      <h1> D- B L O C K &nbsp; M E N U </h1></div>
+      <!--swiper slider-->
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+          <!--slide 1-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/chole.jpeg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            <!--slide 2-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/rajma.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            <!--slide 3-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/Veg_Thali.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            <!--slide 4-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/food2.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            <!--slide 5-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/fried_rice.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            <!--slide 6-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/Veg_Thali.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            <!--slide 7-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/egg_thali.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            <!--slide 8-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/dosa.webp">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            
+            <!--slide 9-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/fried_rice.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+            <!--slide 10-------------------------------------->
+            <div class="swiper-slide">
+            <div class="slider-box">
+      <p class="time">New</p>
+      <div class="img-box">
+      <img src="images/burger.jpg">
+      </div>
+      
+      <p class="detail">Chole Bhature
+      
+      <a href="#" class="price">Price-40</a>
+      </p>
+      <div class="cart">
+      <a href="#">Add To Cart</a>
+      </div>
+      </div>
+            
+            </div>
+            
+            
+            
+      </div>
+      
+      </div>
+
+      <footer>
+            <div class="main-content">
+              <div class="left box">
+                <section id="about"> 
+                <h2>About us</h2>
+                <div class="content">
+                  <p> we are final year students from Btech(CSE) branch came together to make a wonderful and awesome website that help students and staff
+                        members in ordering their food online. We are interested in this website because it will help students from the long waiting queue in 
+                        front of food courts and also saves their time. We are always ready in Making eye-catching websites for you if anyone interested in that.
+                        Anyone can contact us by filling the details in Contact-us section.</p>
+                  <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-youtube"></span></a>
+                  </div>
+                </div>
+                 </section>   
+              </div>
+      
+              <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                  <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text"> Sec-125,Noida, UP</span>
+                  </div>
+                  <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+91 99719xxxxx</span>
+                  </div>
+                  <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">abc@example.com</span>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                  <form action="#">
+                    <div class="email">
+                      <div class="text">Email *</div>
+                      <input type="email" required>
+                    </div>
+                    <div class="msg">
+                      <div class="text">Message *</div>
+                      <textarea rows="2" cols="25" required></textarea>
+                    </div>
+                    <div class="btn">
+                      <button type="submit">Send</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <center>
+                <span class="credit">Created By <a href="#">XYZ</a> | </span>
+                <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+              </center>
+            </div>
+          </footer>
+
+
+
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
